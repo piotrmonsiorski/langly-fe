@@ -1,0 +1,19 @@
+@mixin borderRadiusSm {
+  border-radius: 4px;
+}
+@mixin borderRadiusMd {
+  border-radius: 8px;
+}
+@mixin borderRadiusLg {
+  border-radius: 16px;
+}
+
+@mixin boxShadow {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+@mixin card {
+  background-color: $white;
+  @include borderRadiusMd;
+  @include boxShadow;
+}

@@ -1,0 +1,7 @@
+.CategoriesList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+
+  margin: 24px 0;
+}
