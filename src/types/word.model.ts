@@ -9,14 +9,18 @@ export type WordType =
 export type WordDifficulty = 0 | 1 | 2 | 3;
 
 export type WordValue = Partial<{
+  // word
   word: string;
 
+  // plural
   singular: string;
   plural: string;
 
+  // adj
   male: string;
   female: string;
 
+  // verb
   infinitive: string;
   singular_first: string;
   singular_second: string;

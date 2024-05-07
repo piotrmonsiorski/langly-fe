@@ -1,0 +1,509 @@
+### food
+la comida,food
+la manzana,apple
+la naranja,orange
+la leche,milk
+el pan,bread
+la banana,banana
+el limón,lemon
+el pollo,chicken
+la carne de res,beef
+la carne de cerdo,pork
+la carne de cordero,mutton
+el salmón,salmon
+la langosta,lobster
+el arroz,rice
+la pasta,pasta
+el pan,bread
+el queso,cheese
+la mantequilla,butter
+el yogur,yoghurt
+el halado,ice cream
+el jamón,ham
+el bollo,bake roll / bun
+el pastel,cake
+la sopa,soup
+la cerveza,beer
+el vino,wine
+la vodka,vodka
+el zumo,juice
+el agua,water
+el refresco,soft drink
+el té,tea
+el café,coffee
+la leche,milk
+el huevo,egg
+el tocino,bacon
+el queso crema,creme cheese
+el tomate,tomato
+el pepino,cucumber
+la pimento,paprica
+la cebolla,onion
+la zanahoria,carrot
+la patata,potato
+la verdura,vegetable
+la fruta,fruit
+la carne,meat
+la ensalada,salad
+el pescado,fish
+el sandwich,sandwich
+la tortilla,omlette
+la paella,paella
+la tapa,appetizer
+la salsa,sauce
+el bocadillo,spanish sandwich
+el plátano,platain
+la frita,french fry
+
+
+### travel
+el hotel,hotel
+la visita guiada,guided tour
+el restaurante,restaurant
+el museo,museum
+el parque,park
+el parque nacional,national park
+las vacaciones,vacations
+el viaje,tour
+el camping,camping
+el sanderismo,hiking
+la pisciña,swimming pool
+la tienda de recuerdos,souvenir shop
+el picnic,picnic
+el festival,festival
+el spa,spa
+la torre de observación,observation tower
+la torre,tower
+el castillo,castle
+las ruinas,ruins
+el faro,lighthouse
+
+
+### geography
+la ciudad,city
+el pueblo,town
+la aldea,village
+el pais,country
+el sol,sun
+la luna,moon
+el continente,continent
+el planeta,planet
+el notre,north
+el sur,south
+el este,east
+el oestre,west
+Polonia,Poland
+España,Spain
+Francia,France
+Alemania,Germany
+Italia,Italy
+Reino Unido,United Kingdom
+Inglaterra,England
+Russia,Russia
+China,China
+India,India
+Europa,Europe
+Asia,Asia
+América del Notre,North America
+América del Sur,South America
+Australia,Australia
+
+
+### transport
+el coche,car
+el autobús,bus
+el metro,metro
+el tren,train
+la bicicleta,bicycle
+la motocicleta,motorcycle
+el avión,plane
+el barco,ship
+la calle,street
+el cruce,intersection
+los semáforos,traffic lights
+la parada del autobús,bus stop
+el billeto,ticket
+la estación,station
+
+
+### beach
+la arena,sand
+la ola,wave
+la playa,beach
+el protector solar,sunscreen
+el bañador,swimsuit
+las gafas del sol,sunglasses
+la concha,shell
+la sombrilla,umbrella
+la hamaca,beach chair
+el cubo,bucket
+la pala,spade
+el castillo de arena,sandcastle
+la sombra,shade
+
+
+### hotel
+la recepción,reception
+la cama,bed
+el servicio de habitaciones,room service
+el aire acondicionado,air condicioning
+la televisión,television
+el teléfono,telephone
+el celular,mobile phone
+el minibar,minibar
+el armario,wardrobe
+el escritorio,desk
+la llave,key
+el wifi,wifi
+la tarjeta de accesso,key card
+la vista,view
+el aparcamiento,parking
+el check-in,check-in
+la almohada,pillow
+el lino,bed lining
+la sábana,sheet
+la toalla,towel
+
+
+### nature
+el árbol,tree
+la planta,plant
+la flor,flower
+el césped,grass
+el arbusto,bush
+la hoja,leaf
+la tierra,earth / soil
+la piedra,stone
+la roca,rock
+el rio,river
+el lago,lake
+la montaña,mountain
+la colina,hill
+la cueva,cave
+el cielo,sky
+el mar,sea
+el océano,ocean
+la montaña,mountain
+la orilla del mar,seashore
+
+
+### restuarant
+la mesa,table
+la silla,chair
+el manú,menu
+el plato,plate
+el tenedor,fork
+el cuchillo,knife
+la cuchara,spoon
+la servilleta,napkin
+el camarero,waiter
+la camarera,waitress
+el chef,chef
+el cocinero,cook
+la comida,food
+la bebida,drink
+el vaso,glass
+el restaurante,restaurant
+el bar,bar
+la cuenta,bill
+el desayuno,breakfast
+el almuerzo,lunch
+la cena,dinner
+la merienda,snack
+el postre,dessert
+el plato,dish
+el plato principal,main dish
+la comida,meal
+la taza,cup
+el bol,bowl
+
+
+### building
+el endificio,building
+la casa,house
+el apartamento,apartment
+la puerta,door
+la ventana,window
+la habitación,room
+el dormitorio,bedroom
+la cocina,kitchen
+el baño,bathroom
+el balcón,balcony
+la entrada,entrance
+el salón,living room
+el garaje,garage
+la anscensor,elevator
+las escalaras,stairs
+
+
+### numbers
+cero,zero
+uno,one
+dos,two
+tres,three
+cuatro,four
+cinco,five
+seis,six
+siete,seven
+ocho,eight
+nueve,nine
+diez,ten
+once,eleven
+doce,twelwe
+trece,thirteen
+catorce,fourteen
+quince,fifteen
+dieciseis,sixteen
+diecisiete,seventeen
+dieciocho,eighteen
+diecinueve,nineteen
+veinte,twenty
+treinta,thirty
+cuarenta,fourty
+cincuenta,fifty
+sesenta,sixty
+setenta,seventy
+ochenta,eighty
+noventa,ninety
+cien,hundred
+doscientos,two hundred
+trescientos,three hundred
+cuatrocientos,four hundred
+quinientos,five hundred
+seiscientos,six hundred
+setecientos,seven hundred
+ochocientos,eight hundred
+novecientos,nine hundred
+mil,thousand
+millón,million
+
+
+### numbers_counters
+primero,first
+segundo,second
+tercero,third
+cuarto,fourth
+quinto,fifth
+sexto,sixth
+séptimo,seventh
+octavo,eighth
+noveno,ninth
+décimo,tenth
+
+
+### time
+la hora,hour
+el minuto,minute
+el segundo,second
+el dia,day
+la semana,week
+el mes,month
+el ańo,year
+el reloj,watch
+el calendario,callendar
+el dia laborable,workday
+el fin de semana,weekend
+hoy,today
+mañana,tommorow
+ayer,yesterday
+el punto,on the dot (time)
+y cuarto,quarter past
+y media,half past
+menos cuarto,quarter to
+menos veinte,teenty to
+menos diez,ten to
+a las,at (specific time)
+a la una,at one o'clock
+la primavera,spring
+el verano,summer
+el otoño,autumn
+el invierno,winter
+la noche,night
+el dia,day
+la mañana,morning
+el mediodia,noon
+la tarde,afternoon
+la medianoche,midnight
+
+
+### time_weekdays
+el lunes,monday
+el martes,tuesday
+el miércoles,wednesday
+el jueves,thursday
+el viernes,friday
+el sábado,saturday
+el domingo,sunday
+
+
+### time_months
+el enero,january
+el febrero,february
+el marzo,march
+el abril,april
+el mayo,may
+el junio,june
+el julio,july
+el agosto,august
+el septiembre,september
+el octubre,october
+el noviembre,november
+el diciembre,december
+
+
+### colors
+rojo,red
+azul,blue
+amarillo,yellow
+verde,green
+naranja,orange
+morado,purple
+rosa,pink
+blanco,white
+negro,black
+gris,gray
+marrón,brown
+oro,gold
+plata,silver
+
+
+### clothes
+los zapatos,shoes
+los pantalones,trousers
+las bermudas,shorts
+el vestido,dress
+la falda,skirt
+la camisa,shirt
+la camiseta,t-shirt
+la jaqueta,jacket
+el sombrero,hat
+el cinturón,belt
+los calcetines,socks
+la ropa interion,underwear
+la ropa,clothes
+las gafas,glasses
+las sandalias,sandals
+las chanclas,flip flops
+la bufanda,scarf
+
+
+### animals
+el gato,cat
+el perro,dog
+el pez,fish
+la rata,rat
+el conejo,rabbit
+el pájaro,bird
+el pato,duck
+el ratón,mouse
+el caballo,horse
+el pollo,chicken
+la vaca,cow
+el toro,bull
+el cerdo,pig
+el cordero,sheep
+el mono,monkey
+
+
+### health
+el hospital,hospital
+el médico,doctor
+la ambulancia,ambulance
+la enfermera,nurse
+la raceta,prescription
+el dolor,pain
+la fiebre,fever
+la gripe,flu
+
+
+### pronouns
+quién,who
+qué,what
+dónde,where
+cuándo,when
+por qué,why
+cuál,which
+cómo,how
+cuánto/a,how much
+cuántos/as,how many
+
+
+### verbs
+comer,eat
+beber,drink
+ir,go
+conducir,drive
+dormir,sleep
+nadar,swim
+correr,run
+caminar,walk
+leer,read
+escribir,write
+hablar,speak
+escuchar,listen
+ver,see
+mirar,look
+bailar,dance
+cantar,sing
+saltar,jump
+jugar,play
+trabajar,work
+viajar,travel
+buscar,search
+abrir,open
+comprar,buy
+necesitar,need
+entender,undrestand
+pagar,pay
+querer,want
+salir,leave
+tener,have
+tomar,take
+dar,give
+tocar,touch
+vivir,live
+pensar,think
+ser,be
+disfrutar,enjoy
+preferir,prefer
+servir,serve
+gustar,like
+
+
+### adjectives
+feliz,happy
+triste,sad
+grande,big
+pequeño/a,small
+hermoso/a,beautiful
+feo/a,ugly
+alto/a,tall
+bajo/a,short (height)
+rápido/a,fast
+lento/a,slow
+brillante,bright
+oscuro/a,dark
+caro/a,expensive
+barato/a,cheap
+frio/a,cold
+fresco,chilly
+cálido/a,warm
+calor,hot
+largo,long
+corto,short (length)
+aburrido,boring
+bueno,good
+cómodo,comfortable
+diferente,different
+enfermo,sick
+guapo/a,handsome
+bonito,pretty
+joven,young
+limpio,clean
+viejo,old
+mayor,elder
+manor,younger
+sabroso,tasty
+sucio,dirty
+interesante,interesting
+fresco,fresh

@@ -25,6 +25,16 @@ const SentencesPage = () => {
         })
     );
 
+  const clearSentences = async () =>
+    await api.sentences
+      .removeAll()
+      .then(res => {
+        console.log(res.data.message);
+      })
+      .catch(err => {
+        console.log('err: ', err);
+      });
+
   const getSentences = async () => {
     await api.sentences
       .get()
@@ -46,6 +56,7 @@ const SentencesPage = () => {
         <Link to={paths.categories}>categories</Link>
         <Link to={`/train/sentences`}>train</Link>
         <Button label="Reload sentences" onClick={reloadSentences} />
+        <Button label="Clear sentences" onClick={clearSentences} />
       </Nav>
       <SentencesList sentences={sentences} />
     </div>

@@ -25,6 +25,16 @@ const CategoriesPage = () => {
         })
     );
 
+  const clearWords = async () =>
+    await api.words
+      .removeAll()
+      .then(res => {
+        console.log(res.data.message);
+      })
+      .catch(err => {
+        console.log('err: ', err);
+      });
+
   const getCategories = async () => {
     await api.categories
       .get()
@@ -45,6 +55,7 @@ const CategoriesPage = () => {
       <Nav>
         <Link to={paths.sentences}>sentences</Link>
         <Button label="Reload words" onClick={reloadWords} />
+        <Button label="Clear words" onClick={clearWords} />
       </Nav>
       <CategoriesList categories={categories} />
     </div>
