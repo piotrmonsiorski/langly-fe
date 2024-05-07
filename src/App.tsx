@@ -4,6 +4,7 @@ import { paths } from 'router/paths';
 import CategoriesPage from 'components/pages/CategoriesPage';
 import Layout from 'components/organisms/Layout';
 import CategoryPage from 'components/pages/CategoryPage';
+import SentencesPage from 'components/pages/SentencesPage';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Routes>
         <Route path={paths.category} element={<CategoryPage />} />
         <Route path={paths.categories} element={<CategoriesPage />} />
+        <Route path={paths.sentences} element={<SentencesPage />} />
       </Routes>
     </Layout>
   );

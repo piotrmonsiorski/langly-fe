@@ -4,7 +4,9 @@ import { useEffect, useState } from 'react';
 import api from 'api';
 import { WordCategory } from 'types/word.model';
 import Button from 'components/atoms/Button';
-import { wordsToReload } from 'words';
+import { wordsToReload } from 'assets/data/words';
+import { Link } from 'react-router-dom';
+import { paths } from 'router/paths';
 
 const CategoriesPage = () => {
   const [categories, setCategories] = useState<WordCategory[]>([]);
@@ -38,6 +40,7 @@ const CategoriesPage = () => {
 
   return (
     <div className="CategoriesPage">
+      <Link to={paths.sentences}>sentences</Link>
       <Button label="Reload words" onClick={reloadWords} />
       <CategoriesList categories={categories} />
     </div>
