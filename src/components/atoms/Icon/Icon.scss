@@ -1,0 +1,15 @@
+@import 'assets/styles';
+
+.Icon {
+  transition: all 0.25s ease-in-out;
+
+  &--black {
+    color: $dark;
+  }
+  &--white {
+    color: $white;
+  }
+  &--gray {
+    color: $gray3;
+  }
+}

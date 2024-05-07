@@ -7,6 +7,8 @@ import Button from 'components/atoms/Button';
 import { wordsToReload } from 'assets/data/words';
 import { Link } from 'react-router-dom';
 import { paths } from 'router/paths';
+import './CategoriesPage.scss';
+import Nav from 'components/atoms/Nav';
 
 const CategoriesPage = () => {
   const [categories, setCategories] = useState<WordCategory[]>([]);
@@ -40,8 +42,10 @@ const CategoriesPage = () => {
 
   return (
     <div className="CategoriesPage">
-      <Link to={paths.sentences}>sentences</Link>
-      <Button label="Reload words" onClick={reloadWords} />
+      <Nav>
+        <Link to={paths.sentences}>sentences</Link>
+        <Button label="Reload words" onClick={reloadWords} />
+      </Nav>
       <CategoriesList categories={categories} />
     </div>
   );

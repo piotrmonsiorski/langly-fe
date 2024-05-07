@@ -1,0 +1,19 @@
+@import 'assets/styles';
+
+.TrainSwitch {
+  width: 60px;
+  height: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+  background-color: $white;
+  border-radius: 50%;
+  box-shadow: 0px 11px 41px -18px rgba(66, 68, 90, 0.52);
+
+  &.disabled {
+    background-color: $gray3;
+  }
+}

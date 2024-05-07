@@ -7,6 +7,8 @@ import { sentencesToReload } from 'assets/data/sentences';
 import { Link } from 'react-router-dom';
 import { paths } from 'router/paths';
 import { Sentence } from 'types/sentence.model';
+import './SentencesPage.scss';
+import Nav from 'components/atoms/Nav';
 
 const SentencesPage = () => {
   const [sentences, setSentences] = useState<Sentence[]>([]);
@@ -40,8 +42,11 @@ const SentencesPage = () => {
 
   return (
     <div className="SentencesPage">
-      <Link to={paths.categories}>categories</Link>
-      <Button label="Reload sentences" onClick={reloadSentences} />
+      <Nav>
+        <Link to={paths.categories}>categories</Link>
+        <Link to={`/train/sentences`}>train</Link>
+        <Button label="Reload sentences" onClick={reloadSentences} />
+      </Nav>
       <SentencesList sentences={sentences} />
     </div>
   );

@@ -5,6 +5,7 @@ import CategoriesPage from 'components/pages/CategoriesPage';
 import Layout from 'components/organisms/Layout';
 import CategoryPage from 'components/pages/CategoryPage';
 import SentencesPage from 'components/pages/SentencesPage';
+import TrainPage from 'components/pages/TrainPage';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path={paths.category} element={<CategoryPage />} />
         <Route path={paths.categories} element={<CategoriesPage />} />
         <Route path={paths.sentences} element={<SentencesPage />} />
+        <Route path={paths.train} element={<TrainPage />} />
       </Routes>
     </Layout>
   );

@@ -4,12 +4,10 @@ import Category from 'components/molecules/Category';
 import { Props } from './CategoriesList.model';
 
 const CategoriesList = ({ categories }: Props) => {
-  console.log('categories: ', categories);
-
   return (
     <div className="CategoriesList">
       {categories.map(category => (
-        <Category category={category} />
+        <Category key={category.id} category={category} />
       ))}
     </div>
   );

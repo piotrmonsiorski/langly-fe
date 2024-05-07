@@ -4,12 +4,10 @@ import Sentence from 'components/molecules/Sentence';
 import { Props } from './SentencesList.model';
 
 const SentencesList = ({ sentences }: Props) => {
-  console.log('categories: ', sentences);
-
   return (
     <div className="SentencesList">
       {sentences.map(sentence => (
-        <Sentence sentence={sentence} />
+        <Sentence key={sentence.value_en} sentence={sentence} />
       ))}
     </div>
   );
