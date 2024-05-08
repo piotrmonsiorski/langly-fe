@@ -54,7 +54,7 @@ const SentencesPage = () => {
     <div className="SentencesPage">
       <Nav>
         <Link to={paths.categories}>categories</Link>
-        <Link to={`/train/sentences`}>train</Link>
+        <Link to={`/train/sentences/all`}>train</Link>
         <Button label="Reload sentences" onClick={reloadSentences} />
         <Button label="Clear sentences" onClick={clearSentences} />
       </Nav>

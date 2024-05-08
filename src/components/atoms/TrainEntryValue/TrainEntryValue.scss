@@ -1,0 +1,36 @@
+@import 'assets/styles';
+
+.TrainEntryValue {
+  display: grid;
+  gap: 8px;
+
+  .grid {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .value {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+.TrainEntryValueBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+
+  border-radius: 8px;
+  background-color: $gray1;
+
+  .label {
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}

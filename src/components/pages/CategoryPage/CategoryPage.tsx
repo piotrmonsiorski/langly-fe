@@ -31,6 +31,7 @@ const CategoryPage = () => {
     <div className="CategoryPage">
       <Nav>
         <Link to={paths.categories}>back to categories</Link>
+        <Link to={`/train/words/${category}`}>train</Link>
       </Nav>
       <WordsList words={words} />
     </div>
